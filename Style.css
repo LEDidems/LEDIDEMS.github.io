@@ -1,14 +1,36 @@
-.video-responsive { 
-    overflow:hidden; 
-    padding-bottom:56.25%; 
-    position:relative; 
-    height:0;
-    }
-    
-    .video-responsive iframe {
-    left:0; 
-    top:0; 
-    height:100%;
-    width:100%;
-    position:absolute;
-    }
+ body {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header  {
+    border-bottom: 1px solid #6B6B6B;
+}
+
+header li  {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header li a{
+    display: block;
+    padding: 20px;
+}
+header li a:hover {
+    background-color: blueviolet;
+}
+
+    .sub-menu {
+    display: none;
+}
